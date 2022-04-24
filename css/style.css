@@ -5,7 +5,8 @@
   --paragraph-text-color: #757575;
   --background-main-color: #2F303A;
   --background-grey-color: #F5F4FA;
-  --socialnet-sleep-color: #AFB1B8;  
+  --socialnet-sleep-color: #AFB1B8; 
+  --main-text-color: #212121;
 }
 
 h1,
@@ -19,8 +20,8 @@ p {
 .page {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-   /* main text color */
-  color: #212121;    
+  
+  color: var(--main-text-color);    
 }
 .section {    
   padding-top: 94px;
@@ -634,9 +635,6 @@ cursor: pointer;
 .rectangles .rectangle + .rectangle {
   margin-left: 8px;
 }
-/* .rectangle {
-  position: relative;
-} */
 .filter {  
   padding: 6px 22px;
   font-family: inherit;
